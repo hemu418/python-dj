@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+<style>
+    th,td{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    table{
+        border-collapse: collapse;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        /* margin-bottom: 20px; */
+    }
+    th{
+        background-color: lightgray;
+        font-variant: small-caps;
+    }   
+    /* td{
+        background-color: lightyellow;
+        
+    } */
+   tr:nth-child(even) {
+        background-color: rgb(139, 204, 225);
+    }
+   tr:nth-child(odd) {
+        background-color: rgb(146, 226, 163);
+    }
+</style>
+
+</head>
+<body>
+    <!-- 
+    table -> create a table
+    thead ->head of table
+    tbody-> body of table
+    tr -> table row
+    th -> table header element
+    td -> table body data element
+
+     -->
+    <h1> first TABLE </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>id </th>
+                <th> Name </th>
+                <th> email </th>
+                <th> phone no </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>sindu</td>
+                <td>hinthea@outlook.com</td>
+                <td>9768123246</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>gopi</td>
+                <td>pachac@outlook.com</td>
+                <td>9722681237</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>dawa</td>
+                <td>tmngdawa@outlook.com</td>
+                <td>9768127844</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>sunil</td>
+                <td>sunim.lmas@outlook.com</td>
+                <td>9768134544</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <h1>second table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>population  </th>
+                <th> gamma </th>
+                <th> delta </th>
+                <th> epsilon </th>
+                <th> Zeta </th>
+                <th> Eta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Sample #1</th>
+                <td>89</td>
+                <td>72</td>
+                <td>39</td>
+                <td>64</td>
+                <td>32</td>
+
+            </tr>
+            <tr>
+                <th>Sample #2</th>
+                <td>32</td>
+                <td>39</td>
+                <td>89</td>
+                <td>72</td>
+                <td>64</td>
+
+            </tr>
+            <tr>
+                <th>Sample #3</th>
+                <td>81</td>
+                <td>77</td>
+                <td>32</td>
+                <td>63</td>
+                <td>38</td>
+
+            </tr>
+            <tr>
+                <th>Sample #4</th>
+                <td>86</td>
+                <td>71</td>
+                <td>30</td>
+                <td>67</td>
+                <td>33</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+     
+</body>
+</html>

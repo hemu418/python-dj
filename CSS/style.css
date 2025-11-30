@@ -1,0 +1,27 @@
+*{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* element selector */
+        p {
+            color: rgb(0, 110, 206);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+/* id selector */
+        #third {
+            color: rgb(24, 120, 23);
+            /* background-color: maroon; */
+        }
+
+/* class selector */
+        .grey {
+            color: rgb(255, 0, 0);
+            /* background-color: lightgrey; */
+        }
+        h3{
+            color: rgb(80, 63, 194);
+            text-decoration: dashed underline;
+        }

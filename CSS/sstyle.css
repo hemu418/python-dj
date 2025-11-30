@@ -1,0 +1,8 @@
+.carousel-item img {
+    /* margin: 0 auto; */
+object-fit: fill;
+}
+h5{
+    /* background-color: black; */
+    color: rgb(113, 176, 72);
+}

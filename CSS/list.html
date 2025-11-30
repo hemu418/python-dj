@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIST</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        ol ul ul li{
+            color: red;
+            display: ruby-text;
+        }
+
+        ol ul{
+            background-color: lightgrey;
+            font-size: 25px;
+            font-family: monospace;
+            /* display: flex; */
+            list-style-type: circle;
+            /* justify-content: center; */
+        }
+        ol ul:hover{
+            color: yellow;
+        }
+
+        ul{
+            background-color: lightgreen;
+            font-size: 20px;
+            font-family: monospace;
+            /* display: flex; */
+            list-style-type: none;
+            justify-content: center;
+        }
+        ol{
+            background-color: rgb(174, 191, 232);
+            font-size: 20px;
+            font-family: monospace;
+            justify-content: center;
+            /* display: flex; */
+        }
+        li{
+            margin: 10px;
+            /* padding: 30px; */
+            /* justify-content: center; */
+        }
+
+        .nav{
+            display: flex;
+            gap: 20px;
+            color: white;
+            background-color: rgb(22, 57, 68);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            /* list-style-type: square; */
+
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="/html/index.html">index</a></li>
+        <li><a href="/html/list.html">list</a></li>
+        <li><a href="/html/heading.html">heading</a></li>
+        <li><a href="/html/anchor-tag.html">anchor-tag</a></li>
+        <li><a href="/html/text-format.html">text-format</a></li>
+            
+       
+    </ul>
+    
+
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <h2>Nested List</h2>
+    <ol>
+        <li>web development</li>
+        <ul>
+            <li>HTML</li>
+            <ul>
+                <li>heading</li>
+                <li>image</li>
+                <li>List</li>
+            </ul>
+            <li>CSS</li>
+            <ul>
+                <li>colors</li>
+                <li>fonts</li>
+            </ul>
+            <li>JavaScript</li>
+        </ul>
+        <li>cybersecurity</li>
+        <ul>
+            <li>offensive security</li>
+            <li>defensive security</li>
+            <li>GRC</li>
+        </ul>
+    </ol>
+        
+
+</body>
+</html>
