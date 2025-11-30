@@ -1,0 +1,95 @@
+<!-- 11-20-2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- to send data to the server by the server -->
+     <!-- form 
+      attributes of form-> 
+      action = where to send the data 
+      method = how to send (get/post)
+      
+      elements of form ->
+      input -> email ,text,password,radio,checkbox,submit,button
+      checkbox -> to select multiple options
+      radio -> to select only one option
+      reset -> to reset the form
+      select -> dropdown
+
+      attribute of input ->
+      type -> to specify the type of input
+      id -> to identify the input
+      name -> to name the input
+      class -> to classify the input
+      placeholder -> to give a hint to the user 
+      textarea -> to create a text area
+      required readonly
+      -->
+
+        <form>
+            <label> <b>Name</b></label>
+            <input type="email" placeholder="enter your email">
+            <br><br>
+            <label> <b>email</b></label>
+            <input type="text" name="enter your name" placeholder="info@example.com" id="name">
+
+            <br><br>
+            <label for="">value</label>
+            <input type="number" min="1" max="20" step="1">
+            <br><br>
+            <label for="">date and time</label>
+            <input type="datetime-local" name="" id="">
+            <br><br>
+            <label for="">date</label>
+            <input type="date" name="" id="">
+
+            <br><br>
+            <label for="">GENDER</label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+
+
+            <br><br>
+            <label for="">choose all the correct answers</label>
+            <input type="checkbox" name="answers">ans 1
+            <input type="checkbox" name="answers">ans 2
+            <input type="checkbox" name="answers">ans 3 
+            <br><br>
+            <input type="file" name="" id="">
+
+            <br><br>
+            <label for="">courses</label>
+            <br>
+            <select name="courses" id="">
+                <option value="" selected disabled>select course</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="react">React</option>  
+                <option value="node">node.js</option>  
+            </select>  
+
+            <br><br>
+
+            <label for="">about you</label>
+            <textarea name="" id="">i am .....</textarea>
+
+            <br>   
+
+            <label for="">password</label>
+           <input type="password" name="" id="">
+           <br><br>
+           <input type="submit" name="" id="" value="submit form">
+           <br><br>
+           <input type="reset" >
+        </form>
+
+</body>
+</html>
